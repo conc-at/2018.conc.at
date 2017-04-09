@@ -1,0 +1,23 @@
+extends ./jade/layout.jade
+
+include ./jade/mixins/abstract
+include ./jade/mixins/speaker
+include ./jade/mixins/social
+
+block content
+
+  include ./jade/header
+  include ./jade/postconf
+  //- include ./jade/about
+  //- include ./jade/map
+  include ./jade/speakers
+  include ./jade/sponsors
+  //- include ./jade/tickets
+  //- include ./jade/a11y
+  //- include ./jade/coc
+  include ./jade/team
+  
+  block modals
+    include ./jade/modals
+  
+  include ./jade/footer
