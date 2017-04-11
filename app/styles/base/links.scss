@@ -1,0 +1,42 @@
+// links
+a {
+  color: $color-blue;
+}
+
+a:hover,
+a:focus {
+  color: $color-blue-hover;
+}
+
+.link--green {
+  color: $color-green;
+  &:hover,
+  &:focus {
+    color: $color-green-hover;
+  }
+}
+
+.link--yellow {
+  color: $color-yellow;
+  &:hover,
+  &:focus {
+    color: $color-yellow-hover;
+  }
+}
+
+.link--red {
+  color: $color-red;
+  &:hover,
+  &:focus {
+    color: $color-red-hover;
+  }
+}
+
+a[disabled],
+.link--disabled {
+  color: $color-neutral-40;
+  &:hover,
+  &:focus {
+    color: $color-neutral-40;
+  }
+}
