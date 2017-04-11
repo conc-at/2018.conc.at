@@ -1,0 +1,22 @@
+@import "./normalize/default";
+@import "./normalize/custom";
+@import "./variables/breakpoints";
+@import "./variables/colors";
+@import "./variables/transitions";
+@import "./base/typography";
+@import "./base/links";
+@import "./base/buttons";
+
+body {
+  color: $color-neutral;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  transition-property: background-color, color, border-color;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+}

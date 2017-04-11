@@ -1,23 +1,64 @@
-@import "./normalize/default";
-@import "./normalize/custom";
-@import "./variables/breakpoints";
-@import "./variables/colors";
-@import "./variables/transitions";
-@import "./base/typography";
-@import "./base/links";
-@import "./base/buttons";
-@import "./base/lists";
+@import "base";
 
-body {
-  color: $color-neutral;
+.site-main {
+  padding-top: 1.5rem;
 }
 
-a,
-button,
-input,
-select,
-textarea {
-  transition-property: background-color, color, border-color;
-  transition-duration: $transition-duration;
-  transition-timing-function: $transition-timing-function;
+.site-container {
+  margin: 0 auto;
+  padding: .75rem 2rem;
+  max-width: 1170px;
+}
+
+.site-section {
+  max-width: 800px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  clear: both;
+}
+
+$input-height: 2.8rem;
+$icon-height: 1.5rem;
+
+// site-input
+.site-input {
+  display: block;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.site-input__icon {
+  position: absolute;
+  top: calc(50% - (#{$icon-height} / 2));
+  left: .75rem;
+  pointer-events: none;
+  display: block;
+  width: $icon-height;
+  height: $icon-height;
+  fill: $color-neutral-20;
+}
+
+.site-input__input {
+  height: $input-height;
+  width: 400px;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border: 1px solid $color-neutral-30;
+  border-right: none;
+  color: $color-neutral-60;
+  &:hover, &:focus, &:active {
+    outline: none;
+    color: $color-neutral;
+    border-color: $color-green;
+  }
+}
+
+.site-input__input--icon {
+  padding-left: 2.75rem;
+}
+
+.site-input__input--no-border {
+  border: none;
 }

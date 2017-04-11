@@ -8,45 +8,46 @@
 
 // global text styles
 
-body, input, textarea, select, button {
-  font-family: 'Bree Serif', serif;
+input, textarea, select, button {
+  font-family: "Lato", "Open Sans", sans-serif;
 }
 
 body {
   line-height: 1.5;
+  font-family: 'Bree Serif', serif;
 }
 
 // headings
 
-.hd-xl, h1 {
+h1 {
   font-size: 2.5rem;
   line-height: 1.25;
   margin-bottom: 1rem;
 }
 
-.hd-l, h2 {
+h2 {
   font-size: 2.25rem;
   line-height: 1.25;
   margin-bottom: 1rem;
 }
 
-.hd-m, h3 {
+h3 {
   font-size: 1.75rem;
   line-height: 1.25;
   margin-bottom: 1rem;
 }
 
-.hd-s, h4 {
+h4 {
   font-size: 1.5rem;
   line-height: 1.25;
 }
 
-.hd-xs, h5 {
+h5 {
   font-size: 1.25rem;
   line-height: 1.25;
 }
 
-.hd-xxs, h6 {
+h6 {
   font-size: .875rem;
   line-height: 1.25;
   @include uppercase;
@@ -66,6 +67,7 @@ body {
   margin-left: 0;
   padding-left: 1rem;
   border-left: 4px solid $color-neutral-20;
+  color: $color-neutral-70;
   blockquote {
     margin: 0;
   }
