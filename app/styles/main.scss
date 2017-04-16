@@ -4,10 +4,20 @@ body, html {
   height: 100%;
 }
 
+@keyframes bg-scroll-y {
+  0% {
+    background-position: 0 0%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
 body {
   background-image: url("/images/bg.svg");
   background-size: 50%;
   background-repeat: repeat;
+  animation: bg-scroll-y 20s infinite linear;
 }
 
 .site-main {
