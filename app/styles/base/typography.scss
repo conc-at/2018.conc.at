@@ -77,3 +77,25 @@ h6 {
     color: $color-neutral-60;
   }
 }
+
+// modifier
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-muted {
+  color: $color-neutral-70;
+}

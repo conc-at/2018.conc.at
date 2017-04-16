@@ -1,20 +1,63 @@
 @import "base";
 
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("/images/bg.svg");
+  background-size: 800px;
+  background-repeat: repeat;
+}
+
 .site-main {
   padding-top: 1.5rem;
+  height: 100%;
 }
 
 .site-container {
   margin: 0 auto;
   padding: .75rem 2rem;
   max-width: 1170px;
+  height: 100%;
 }
 
 .site-section {
-  max-width: 800px;
+  margin: 0 auto;
+  max-width: 600px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   clear: both;
+}
+
+.site-section__main {
+  margin-top: 4em;
+}
+
+.site-section__glow {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 100px 0 #fff;
+  box-shadow: 0 0 100px 0 #fff;
+}
+
+.fixed-bottom {
+  position: absolute;
+  bottom: 2em;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+nav {
+  a {
+    padding: 0 0.5em 0 0;
+  }
 }
 
 $input-height: 2.8rem;
@@ -42,7 +85,7 @@ $icon-height: 1.5rem;
 
 .site-input__input {
   height: $input-height;
-  width: 400px;
+  width: 20em;
   padding-right: .5rem;
   padding-left: .5rem;
   border: 1px solid $color-neutral-30;
@@ -51,7 +94,7 @@ $icon-height: 1.5rem;
   &:hover, &:focus, &:active {
     outline: none;
     color: $color-neutral;
-    border-color: $color-green;
+    border-color: $color-neutral-50;
   }
 }
 
