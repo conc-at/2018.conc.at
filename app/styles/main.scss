@@ -5,9 +5,8 @@ body, html {
 }
 
 body {
-  background-color: #fff;
   background-image: url("/images/bg.svg");
-  background-size: 400px;
+  background-size: 50%;
   background-repeat: repeat;
 }
 
@@ -26,19 +25,13 @@ body {
 .site-section {
   margin: 0 auto;
   max-width: 600px;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   clear: both;
 }
 
 .site-section__main {
   margin-top: 4em;
-}
-
-.site-section__glow {
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 100px 0 #fff;
-  box-shadow: 0 0 100px 0 #fff;
 }
 
 .fixed-bottom {
@@ -60,7 +53,7 @@ nav {
   }
 }
 
-$input-height: 2.8rem;
+$input-height: 2.85rem;
 $icon-height: 1.5rem;
 
 // site-input

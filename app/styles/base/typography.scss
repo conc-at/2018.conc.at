@@ -17,24 +17,35 @@ body {
   font-family: 'Bree Serif', serif;
 }
 
+p {
+  font-family: "Lato", "Open Sans", sans-serif;
+  color: #fff;
+  line-height: 1.7;
+  span {
+    background-color: $color-neutral;
+    padding: 2px 0 3px 0;
+    box-shadow: 8px 0 0 $color-neutral, -8px 0 0 $color-neutral;
+  }
+}
+
 // headings
 
 h1 {
   font-size: 2.5rem;
   line-height: 1.25;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 2.25rem;
   line-height: 1.25;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
   font-size: 1.75rem;
   line-height: 1.25;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
