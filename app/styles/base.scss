@@ -5,14 +5,11 @@
 @import "./variables/transitions";
 @import "./base/typography";
 @import "./base/links";
+@import "./base/input";
 @import "./base/buttons";
 
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
-
-body {
-  color: $color-neutral;
-}
 
 a,
 button,

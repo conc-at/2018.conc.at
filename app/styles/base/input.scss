@@ -1,0 +1,33 @@
+input {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border: 1px solid $color-neutral-30;
+  border-right: none;
+  color: $color-neutral-60;
+  &:hover, &:focus, &:active {
+    outline: none;
+    color: $color-neutral;
+    border-color: $color-neutral-50;
+  }
+}
+
+label {
+  color: $color-neutral-70;
+  font-family: "Open Sans", sans-serif;
+  font-size: 75%;
+  margin-bottom: 0.1em;
+}
+
+.input-group {
+  display: flex;
+
+  input {
+    flex: 1 0 8em;
+    color: $color-neutral-60;
+    padding: 0.4em 0.3em;
+  }
+
+  button {
+    flex: 0 0 2.75em;
+  }
+}

@@ -1,112 +1,14 @@
-// mixins
-
-// uppercase
-@mixin uppercase {
-  text-transform: uppercase;
-  letter-spacing: .025em;
-}
-
 // global text styles
 
-input, textarea, select, button {
-  font-family: "Lato", "Open Sans", sans-serif;
-}
-
 body {
-  line-height: 1.5;
   font-family: 'Bree Serif', serif;
 }
 
-p {
-  font-family: "Lato", "Open Sans", sans-serif;
-  color: #fff;
-  line-height: 1.7;
-  span {
-    background-color: $color-neutral;
-    padding: 2px 0 3px 0;
-    box-shadow: 8px 0 0 $color-neutral, -8px 0 0 $color-neutral;
-  }
-}
+h1.lead, h2.lead {
+  font-family: 'Open Sans', sans-serif;
+  color: $color-neutral-10;
 
-// headings
-
-h1 {
-  font-size: 2.5rem;
-  line-height: 1.25;
-  margin-bottom: 0.5rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-  line-height: 1.25;
-  margin-bottom: 0.5rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-  line-height: 1.25;
-  margin-bottom: 0.5rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-  line-height: 1.25;
-}
-
-h5 {
-  font-size: 1.25rem;
-  line-height: 1.25;
-}
-
-h6 {
-  font-size: .875rem;
-  line-height: 1.25;
-  @include uppercase;
-}
-
-// paragraphs
-
-.lead {
-  font-size: 1.5rem;
-  line-height: 1.333;
-  margin-bottom: 1.5rem;
-}
-
-// blockquote
-
-.blockquote {
-  margin-left: 0;
-  padding-left: 1rem;
-  border-left: 4px solid $color-neutral-20;
-  color: $color-neutral-70;
-  blockquote {
-    margin: 0;
-  }
-  figcaption {
-    font-size: .875rem;
-    line-height: 1.25;
-    color: $color-neutral-60;
-  }
-}
-
-// modifier
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-muted {
-  color: $color-neutral-70;
+  margin: 0.15em 0 0.1em 0;
+  padding: 0.1em 0.3em 0.15em 0.3em;
+  background-color: $color-neutral;
 }

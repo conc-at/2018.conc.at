@@ -1,110 +1,80 @@
 @import "base";
 
-body, html {
-  height: 100%;
-}
-
 @keyframes bg-scroll-y {
   0% {
-    background-position: 0 0%;
+    background-position: 0 100%;
   }
   100% {
-    background-position: 0 100%;
+    background-position: 0 0%;
   }
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-image: url("/images/bg.svg");
   background-size: 50%;
   background-repeat: repeat;
   animation: bg-scroll-y 40s infinite linear;
 }
 
-.site-main {
-  padding-top: 1.5rem;
-  height: 100%;
+header {
+  margin: 2rem;
+
+  display: flex;
+
+  nav {
+    display: flex;
+  }
 }
 
-.site-container {
-  margin: 0 auto;
-  padding: .75rem 2rem;
-  max-width: 1170px;
-  height: 100%;
-}
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-.site-section {
-  margin: 0 auto;
+  width: 50%;
   max-width: 600px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  clear: both;
+
+  .signup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    margin-top: 2em;
+  }
+
 }
 
-.site-section__main {
-  margin-top: 4em;
-}
+footer {
+  margin: 2rem;
 
-.fixed-bottom {
-  position: absolute;
-  bottom: 2em;
-}
+  display: flex;
+  justify-content: space-between;
 
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
-}
-
-nav {
-  a {
-    padding: 0 0.5em 0 0;
+  nav {
+    &.links {
+      a {
+        margin-right: 1em;
+      }
+    }
+    &.social {
+      a {
+        padding-left: 0.2em;
+      }
+    }
   }
 }
 
-$input-height: 2.85rem;
-$icon-height: 1.5rem;
-
-// site-input
-.site-input {
-  display: block;
-  float: left;
-  position: relative;
-  overflow: hidden;
-  vertical-align: middle;
+#mc_embed_signup {
+  width: 100%;
 }
 
-.site-input__icon {
-  position: absolute;
-  top: calc(50% - (#{$icon-height} / 2));
-  left: .75rem;
-  pointer-events: none;
-  display: block;
-  width: $icon-height;
-  height: $icon-height;
-  fill: $color-neutral-20;
-}
-
-.site-input__input {
-  height: $input-height;
-  width: 20em;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  border: 1px solid $color-neutral-30;
-  border-right: none;
-  color: $color-neutral-60;
-  &:hover, &:focus, &:active {
-    outline: none;
-    color: $color-neutral;
-    border-color: $color-neutral-50;
-  }
-}
-
-.site-input__input--icon {
-  padding-left: 2.75rem;
-}
-
-.site-input__input--no-border {
-  border: none;
+.logo {
+  min-width: 100px;
+  margin: 0 0 1em 0;
 }
