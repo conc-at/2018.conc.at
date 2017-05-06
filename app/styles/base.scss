@@ -10,6 +10,11 @@
 
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_modals";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_tables";
 
 a,
 button,

@@ -83,3 +83,64 @@ footer {
   color: $color-neutral;
   margin-bottom: 0.5em;
 }
+
+.portfolio-modal {
+  padding-left: 0 !important;
+
+  .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    h2 {
+      margin-bottom: 15px;
+      font-size: 3em;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    p.item-intro {
+      margin: 20px 0 30px;;
+      font-style: italic;
+      font-size: 1em;
+    }
+    ul.list-inline {
+      margin-top: 0;
+    }
+  }
+  .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.3;
+    }
+    .lr {
+      height: 75px;
+      width: 1px;
+      margin-left: 35px;
+      background-color: $color-neutral-90;
+      transform: rotate(45deg);
+      z-index: 1051;
+      .rl {
+        height: 75px;
+        width: 1px;
+        background-color: $color-neutral-90;
+        transform: rotate(90deg);
+        z-index: 1052;
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .portfolio-modal .modal-content h2 {
+    font-size: 2em;
+  }
+}
