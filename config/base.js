@@ -25,6 +25,10 @@ const plugins = [
     title: 'frontend-boilerplate',
     template: path.join(__dirname, '../app/index.html')
   }),
+  new webpack.ProvidePlugin({
+    $: 'jquery',
+    jQuery: 'jquery'
+  }),
   extractSass,
   copyStatic
 ]
