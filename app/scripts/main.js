@@ -1,2 +1,2 @@
-import '../styles/main.scss'
-import 'font-awesome-webpack2'
+import '../styles/main.scss';
+import 'font-awesome-webpack2';
