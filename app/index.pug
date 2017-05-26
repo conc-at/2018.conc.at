@@ -1,0 +1,23 @@
+extends ./pug/layout.pug
+
+include pug/mixins/abstract
+include pug/mixins/speaker
+include pug/mixins/social
+
+block content
+
+  include ./pug/header
+  //- include ./pug/postconf
+  include ./pug/about
+  include ./pug/map
+  include ./pug/speakers
+  include ./pug/tickets
+  include ./pug/a11y
+  include ./pug/coc
+  include ./pug/sponsors
+  include ./pug/team
+
+  block modals
+    include ./pug/modals
+
+  include ./pug/footer

@@ -1,0 +1,54 @@
+head
+  meta(charset='utf-8')
+  block title
+    title .concat() web development and UX conference
+  meta(
+    name='description',
+    content='The web development and UX conference in Salzburg, Austria March 3rd 2018.'
+  )
+  meta(name='viewport', content='width=device-width, initial-scale=1, minimal-ui')
+  meta(name='apple-mobile-web-app-title', content='.concat()')
+  link(rel='shortcut icon', href='/favicons/favicon.ico')
+  link(rel='apple-touch-icon', sizes="180x180", href='/favicons/apple-touch-icon.png')
+  link(rel='icon', type='image/png', href='/favicons/favicon-16x16.png', sizes='16x16')
+  link(rel='icon', type='image/png', href='/favicons/favicon-32x32.png', sizes='32x32')
+  meta(name='msapplication-TileColor', content='#ffffff')
+  meta(name='msapplication-TileImage', content='/favicons/mstile-150x150.png')
+  meta(name='msapplication-config', content='/favicons/browserconfig.xml')
+  meta(name='application-name', content='.concat()')
+  link(rel='alternate', href='schemas/event.jsonld' type='application/ld+json')
+  link(rel='publisher', href='https://plus.google.com/112255772257819861777')
+  link(rel='shortcut icon', href='/favicon.ico')
+
+  meta(itemprop='name', content='.concat() web development conference')
+  meta(itemprop='description', content='The web development conference in Salzburg, Austria March 3rd 2018')
+  meta(itemprop='image', content='https://2018.conc.at/images/people@2x.jpg')
+  // Twitter Card data
+  meta(name='twitter:card', content='product')
+  meta(name='twitter:site', content='@conc_at')
+  meta(name='twitter:title', content='.concat() web development conference')
+  meta(name='twitter:description', content='The web development conference in Salzburg, Austria March 3rd 2018')
+  meta(name='twitter:creator', content='@conc_at')
+  meta(name='twitter:image', content='https://2018.conc.at/images/people@2x.jpg')
+  meta(name='twitter:data1', content='125€')
+  meta(name='twitter:label1', content='Price')
+  meta(name='twitter:data2', content='Black')
+  meta(name='twitter:label2', content='Color')
+  // Open Graph data
+  meta(property='og:title', content='.concat() web development conference')
+  meta(property='og:type', content='article')
+  meta(property='og:url', content='https://2018.conc.at/')
+  meta(property='og:image', content='https://2018.conc.at/images/people@2x.jpg')
+  meta(property='og:description', content='The web development conference in Salzburg, Austria March 3rd 2018')
+  meta(property='og:site_name', content='.concat()')
+  meta(property='og:price:amount', content='125')
+  meta(property='og:price:currency', content='EUR')
+
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin', rel='stylesheet')
+  link(href="https://fonts.googleapis.com/css?family=Bree+Serif", rel="stylesheet")
+  // build:css({app,.tmp})  styles/main.css
+  link(rel='stylesheet', href='../node_modules/bootstrap/dist/css/bootstrap.css')
+  link(rel='stylesheet', href='../node_modules/font-awesome/css/font-awesome.css')
+  link(rel='stylesheet', href='styles/main.css')
+  block styles
+  // endbuild

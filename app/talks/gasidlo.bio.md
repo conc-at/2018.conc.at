@@ -1,0 +1,3 @@
+I love speaking at conferences and meetups. I either speak about offline first, progressive enhancement with a focus on network or web compatibility, what it's about and why it matters. I love to make tough tech topics understandable to everyone and enable people. Also, I was MC at RejectJS, 3 years in a row and otsconf.
+
+Community is very dear to my heart as well as Open Source. This is why I am one of the co-founders of the OpenTechSchool Dortmund, co-organizers of RejectJS, part of CSSConfEU and creator of otsconf. Also huge supporter of the JavaScript community, diversity in tech and daugher driven development.

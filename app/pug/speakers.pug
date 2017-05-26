@@ -1,0 +1,28 @@
+section#talks.bg-light-gray
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading Talks
+    .row
+      +speaker('Ola Gasidlo', 'Let\'s save the internet: How to make browsers compatible with the web', '#lets-save-the-internet-How-to-make-browsers-compatible-with-the-web', '@misprintedtype')
+      +speaker('Max Stoiber', 'Styled Components', '#styled-components', '@mxstbr')
+      +speaker('Sara Soueidan', 'Practical Frontend Solutions for Creative Design Challenges', '#practical-frontend-solutions-for-creative-design-challenges', '@SaraSoueidan')
+      +speaker('And You', 'Your talk at .concat() 2018', '')
+      //-
+       .row.text-center
+         | Full schedule available on #{''}
+         a(href='http://lanyrd.com/2018/concat/') Lanyrd
+         | .
+
+    .row#cfp
+      .col-lg-12.text-center
+        h2.section-heading Call for Speakers
+        h3.section-subheading.text-muted
+          a(
+          href='https://docs.google.com/forms/d/15yV_CLH45PyITDLPLg8R-toCXoWgBOPteyOPXuh2w0A/viewform',
+          title='Talk submission form'
+          ) Submit your talk
+          | &nbsp;until Friday, December, 1st 2017.
+    .row
+      .col-md-8.col-md-offset-2
+        include:markdown-it speakers.md

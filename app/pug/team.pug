@@ -1,0 +1,77 @@
+section#team.bg-light-gray
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading The Team
+    .row
+      .col-sm-2.col-sm-offset-3
+        .team-member
+          img.img-responsive.img-circle(
+          width='225',
+          height='225',
+          src='images/team/neele.jpg',
+          srcset='images/team/neele@2x.jpg 2x',
+          alt='Neele Barthel'
+          )
+          h4 Neele Barthel
+          p.text-muted
+            a(href='https://neele.codes') neele.codes
+          ul.list-inline.social-buttons
+            li
+              a(href='https://twitter.com/helloneele')
+                i.fa.fa-twitter
+            li
+              a(href='https://github.com/helloneele')
+                i.fa.fa-github-alt
+            li
+              a(href='http://neele.codes/')
+                i.fa.fa-globe
+      .col-sm-2
+        .team-member
+          img.img-responsive.img-circle(
+          width='225',
+          height='225',
+          src='images/team/fabian.jpg',
+          srcset='images/team/fabian@2x.jpg 2x',
+          alt='Floor Drees'
+          )
+          h4 Fabian Hoffmann
+          p.text-muted
+            a(href='http://fabianhoffmann.io/') fabianhoffmann.io
+          ul.list-inline.social-buttons
+            li
+              a(href='https://twitter.com/fabianh0ffmann')
+                i.fa.fa-twitter
+            li
+              a(href='https://github.com/Fabian-Fynn')
+                i.fa.fa-github-alt
+            li
+              a(href='http://fabianhoffmann.io/')
+                i.fa.fa-globe
+      .col-sm-2
+        .team-member
+          img.img-responsive.img-circle(
+          width='225',
+          height='225',
+          src='images/team/hannes.jpg',
+          srcset='images/team/hannes@2x.jpg 2x',
+          alt='Hannes Moser'
+          )
+          h4 Hannes Moser
+          p.text-muted
+            a(href='https://die.netzarchitekten.com') Die Netzarchitekten
+          ul.list-inline.social-buttons
+            li
+              a(href='https://twitter.com/eliias')
+                i.fa.fa-twitter
+            li
+              a(href='https://github.com/eliias')
+                i.fa.fa-github-alt
+            li
+              a(href='https://die.netzarchitekten.com/')
+                i.fa.fa-globe
+
+    .row
+      .col-lg-8.col-lg-offset-2.text-center
+        p.text-muted
+          include:markdown-it fh.md

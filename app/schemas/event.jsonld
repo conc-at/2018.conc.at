@@ -1,11 +1,11 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": ".concat() 2018",
+  "name": ".concat() 2015",
   "alternateName": "concat",
   "description": "the web development conference in Austria",
-  "url": "https://2018.conc.at",
-  "startDate": "2018-03-03T09:00",
+  "url": "https://conc.at",
+  "startDate": "2015-03-07T09:00",
   "location": {
     "@type": "Place",
     "name": "University of Applied Sciences Salzburg",
@@ -14,7 +14,7 @@
   "offers": {
     "@type": "Offer",
     "name": "Ticket",
-    "url": "https://ti.to/concat/2018"
+    "url": "https://ti.to/concat/2015"
   },
   "organizer": [
     {
@@ -27,9 +27,27 @@
       "@type": "Person",
       "image": "/images/team/hannes@2x.jpg",
       "name": "Hannes Moser",
-      "sameAs": "https://hannesmoser.at/"
+      "sameAs": "http://die.netzarchitekten.com/"
     }
   ],
   "performer": [
+    {
+      "@type": "Person",
+      "image": "/images/speakers/ola_gasidlo@2x.jpg",
+      "name": "Ola Gasidlo",
+      "sameAs": "https://webcompat.com/"
+    },
+    {
+      "@type": "Person",
+      "image": "/images/speakers/max_stoiber@2x.jpg",
+      "name": "Max Stoiber",
+      "sameAs": "https://spectrum.chat/"
+    },
+    {
+      "@type": "Person",
+      "image": "/images/speakers/sara_soueidan@2x.jpg",
+      "name": "Sara Soueidan",
+      "sameAs": "https://sarasoueidan.com/"
+    }
   ]
 }
