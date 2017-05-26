@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Neele Barthel -- Organizer -- @helloneele
+    Fabian Hoffmann -- Organizer -- @fabianh0ffmann
+    Hannes Moser -- Organizer -- @eliias
+
+# THANKS
+
+    Brigitte Jellinek
+    MultiMediaTechnology
+    Fachhochschule Salzburg
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript, UX
