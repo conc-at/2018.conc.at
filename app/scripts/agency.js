@@ -4,7 +4,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- /* global $ */
+/* global $ */
 $(function() {
   var hash = location.hash
   if (!(/Modal$/.test(hash) || /^#talk-/.test(hash))) {
@@ -19,12 +19,12 @@ $(function() {
   $nav.headroom({
     onTop: function() {
       clearTimeout(timeout)
-      $nav.removeClass('navbar-bg')
+      //$nav.removeClass('navbar-bg')
     },
     onNotTop: function() {
       timeout = setTimeout(function() {
-        $nav.addClass('navbar-bg')
-      }, 300)
+        //$nav.addClass('navbar-bg')
+      }, 150)
     }
   })
 
