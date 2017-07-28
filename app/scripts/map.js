@@ -3,7 +3,7 @@
 /* global $ */
 $(function() {
   var rAF = (function() {
-    return  window.requestAnimationFrame ||
+    return window.requestAnimationFrame ||
       window.webkitRequestAnimationFrame ||
       window.mozRequestAnimationFrame ||
       function(callback) {
@@ -39,14 +39,14 @@ $(function() {
 
     var infowindow = new google.maps.InfoWindow({
       content: '<div class="markerPopup">' +
-        '<h2 class="section-heading">Our amazing venue</h2>' +
-        '<h3 class="section-subheading text-muted">' +
-          uni +
-          ' <a href="https://www.google.com/maps/place/Fachhochschule+Salzburg/" title="Open in Google Maps">' +
-            '<i class="fa fa-external-link"></i>' +
-          '</a>' +
-        '</h3>' +
-        '</div>'
+      '<h2 class="section-heading">Our amazing venue</h2>' +
+      '<h3 class="section-subheading text-muted">' +
+      uni +
+      ' <a href="https://www.google.com/maps/place/Fachhochschule+Salzburg/" title="Open in Google Maps">' +
+      '<i class="fa fa-external-link"></i>' +
+      '</a>' +
+      '</h3>' +
+      '</div>'
     })
 
     infowindow.open(map, marker)
@@ -62,62 +62,8 @@ $(function() {
     var flights = [
       {
         path: [
-          // SFO
-          new google.maps.LatLng(37.7833, -122.4167),
-          sbg
-        ]
-      }, {
-        path: [
-          // Austin
-          new google.maps.LatLng(30.2500, -97.7500),
-          sbg
-        ]
-      }, {
-        path: [
-          // Chicago
-          new google.maps.LatLng(41.8369, -87.6847),
-          sbg
-        ]
-      }, {
-        path: [
-          // Melbourne
-          new google.maps.LatLng(-37.8136, 144.9631),
-          sbg
-        ]
-      }, {
-        path: [
-          // Krakow
-          new google.maps.LatLng(50.0614, 19.9372),
-          sbg
-        ]
-      }, {
-        path: [
-          // Zurich
-          new google.maps.LatLng(47.3667, 8.5500),
-          sbg
-        ]
-      }, {
-        path: [
           // Vienna
           new google.maps.LatLng(48.2000, 16.3667),
-          sbg
-        ]
-      }, {
-        path: [
-          // Munich
-          new google.maps.LatLng(48.1333, 11.5667),
-          sbg
-        ]
-      }, {
-        path: [
-          // Düsseldorf
-          new google.maps.LatLng(51.2333, 6.7833),
-          sbg
-        ]
-      }, {
-        path: [
-          // Cologne
-          new google.maps.LatLng(50.9364, 6.9528),
           sbg
         ]
       }, {
@@ -128,20 +74,8 @@ $(function() {
         ]
       }, {
         path: [
-          // London
-          new google.maps.LatLng(51.5072, -0.1275),
-          sbg
-        ]
-      }, {
-        path: [
-          // Hamburg
-          new google.maps.LatLng(53.5653, 10.0014),
-          sbg
-        ]
-      }, {
-        path: [
-          // San Jose, CR
-          new google.maps.LatLng(9.6000, -83.9500),
+          // Lebanon
+          new google.maps.LatLng(33.8734237, 35.3019617),
           sbg
         ]
       }
@@ -156,14 +90,14 @@ $(function() {
           {
             icon: {
               path: 'M 194.67321,2.8421709e-14 L 70.641958,53.625 ' +
-               'C 60.259688,46.70393 36.441378,32.34961 31.736508,30.17602 ' +
-               'C -7.7035221,11.95523 -5.2088921,44.90709 11.387258,54.78122 ' +
-               'C 15.926428,57.48187 39.110778,71.95945 54.860708,81.15624 ' +
-               'L 72.766958,215.09374 L 94.985708,228.24999 L 106.51696,107.31249 ' +
-               'L 178.04821,143.99999 L 181.89196,183.21874 L 196.42321,191.84374 ' +
-               'L 207.51696,149.43749 L 207.64196,149.49999 L 238.45446,117.96874 ' +
-               'L 223.57946,109.96874 L 187.95446,126.87499 L 119.67321,84.43749 ' +
-               'L 217.36071,12.25 L 194.67321,2.8421709e-14 z',
+              'C 60.259688,46.70393 36.441378,32.34961 31.736508,30.17602 ' +
+              'C -7.7035221,11.95523 -5.2088921,44.90709 11.387258,54.78122 ' +
+              'C 15.926428,57.48187 39.110778,71.95945 54.860708,81.15624 ' +
+              'L 72.766958,215.09374 L 94.985708,228.24999 L 106.51696,107.31249 ' +
+              'L 178.04821,143.99999 L 181.89196,183.21874 L 196.42321,191.84374 ' +
+              'L 207.51696,149.43749 L 207.64196,149.49999 L 238.45446,117.96874 ' +
+              'L 223.57946,109.96874 L 187.95446,126.87499 L 119.67321,84.43749 ' +
+              'L 217.36071,12.25 L 194.67321,2.8421709e-14 z',
               scale: 0.1,
               fillColor: 'black',
               strokeColor: 'black',
@@ -174,7 +108,7 @@ $(function() {
           }
         ],
         geodesic: true,
-        strokeColor: '#c50202',
+        strokeColor: '#e40138',
         strokeOpacity: 1.0,
         strokeWeight: 0
       })
@@ -187,13 +121,15 @@ $(function() {
     var count = 0
     var path = 0
 
-    function animatePlanes () {
+    function animatePlanes() {
       count++
 
       if (count > 200) {
         count = 0
         path++
-        if (path === paths.length) return
+        if (path === paths.length) {
+          return
+        }
       }
 
       var icons = paths[path].get('icons')
