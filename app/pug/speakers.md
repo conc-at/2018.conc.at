@@ -1,4 +1,4 @@
-We carefully selected our first seven speakers to show you in which direction we want the conference to go. There are **ten more 20min slots** *without Q&A session afterwards* so we invite you and the entire web development community to **propose a talk for .concat()**.
+We carefully selected our first speakers to show you in which direction we want the conference to go. There are several **more 20min slots** *without Q&A session afterwards* so we invite you and the entire web development and UX community to **propose a talk for .concat()**.
 
 This is a web development and UX conference, so we want to hear talks about frontend and backend development, security, design, typography, accessibility, open source and our culture.
 But if you think our attendees will benefit from you hacking on robots or talking about [bacon](https://www.youtube.com/watch?v=tRVUKCQw7qU) that’s totally fine as well. 
@@ -15,6 +15,6 @@ You feel like you don't have anything to talk about? We feel you – we all know
 
 We want to support our speakers and thus will cover their travel and accommodation. We hope this will help you in your decision to submit a talk and we will do our best to get you and your talk to Salzburg.
 
-So please go ahead, pick your topic and [submit a talk](https://docs.google.com/forms/d/15yV_CLH45PyITDLPLg8R-toCXoWgBOPteyOPXuh2w0A/viewform)!
+So please go ahead, pick your topic and [submit a talk](https://docs.google.com/forms/d/e/1FAIpQLScsqaGmwRfMLFbImrCuB_-r09KIV6AgC5LMQFf64V53OAEuVw/viewform)!
 
 Still not sure? Neele, Fabian & Hannes would be happy to hear from you and help you make your talk a reality. [Contact us](mailto:talks@conc.at)!
