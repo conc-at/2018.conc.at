@@ -13,7 +13,7 @@ You feel like you don't have anything to talk about? We feel you – we all know
 * [Because “imagine everyone's naked” is terrible advice](http://speaking.io/)
 * [We Are All Awesome](http://weareallaweso.me/)
 
-We want to support our speakers and thus will cover their travel and accommodation. We hope this will help you in your decision to submit a talk and we will do our best to get you and your talk to Salzburg.
+We want to support our speakers and thus will **cover their travel and accommodation**. We hope this will help you in your decision to submit a talk and we will do our best to get you and your talk to Salzburg.
 
 So please go ahead, pick your topic and [submit a talk](https://docs.google.com/forms/d/e/1FAIpQLScsqaGmwRfMLFbImrCuB_-r09KIV6AgC5LMQFf64V53OAEuVw/viewform)!
 
