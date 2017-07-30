@@ -1,11 +1,11 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": ".concat() 2015",
+  "name": ".concat() 2018",
   "alternateName": "concat",
-  "description": "the web development conference in Austria",
+  "description": "the web development and UX conference in Austria",
   "url": "https://conc.at",
-  "startDate": "2015-03-07T09:00",
+  "startDate": "2018-03-03T09:00",
   "location": {
     "@type": "Place",
     "name": "University of Applied Sciences Salzburg",
@@ -14,7 +14,7 @@
   "offers": {
     "@type": "Offer",
     "name": "Ticket",
-    "url": "https://ti.to/concat/2015"
+    "url": "https://ti.to/concat/2018"
   },
   "organizer": [
     {
