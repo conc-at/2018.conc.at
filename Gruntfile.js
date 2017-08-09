@@ -125,6 +125,7 @@ module.exports = function (grunt) {
             '<%= config.dist %>/styles/**/*.css',
             '<%= config.dist %>/images/**/*.*',
             '!<%= config.dist %>/images/**/*@2x.*',
+            '!<%= config.dist %>/images/concat_map.png',
             '<%= config.dist %>/fonts/**/*.*',
             '<%= config.dist %>/*.{ico,png}'
           ]
