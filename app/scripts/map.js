@@ -21,19 +21,114 @@ $(function() {
     map.setOptions({scrollwheel: option})
   }
 
+  var customStyle = [
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#444444"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#1da4c1"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    }
+]
+
   var initialize = function() {
     map = new google.maps.Map($map[0], {
       zoom: 3,
       scrollwheel: false,
-      center: new google.maps.LatLng(47.761026, 13.069313)
+      center: new google.maps.LatLng(47.761026, 13.069313),
+      styles: customStyle
     })
 
     var sbg = new google.maps.LatLng(47.723379, 13.087777)
 
-    var uni = 'University of Applied Sciences'
+    var image = {
+      url: './images/concat_map.png',
+      // This marker is 20 pixels wide by 32 pixels high.
+      size: new google.maps.Size(50, 83),
+      scaledSize: new google.maps.Size(50, 83),
+      // The origin for this image is (0, 0).
+      origin: new google.maps.Point(0, 0),
+      // The anchor for this image is the base of the flagpole at (0, 32).
+      anchor: new google.maps.Point(25, 83)
+    };
+
+    var uni = 'University of Applied Sciences Salzburg'
     var marker = new google.maps.Marker({
       position: sbg,
+      animation: google.maps.Animation.DROP,
       map: map,
+      icon: image,
       title: uni
     })
 
