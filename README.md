@@ -1,5 +1,5 @@
 # [conc.at](https://2018.conc.at/)
-[![Build Status](https://jenkins.dovigo.org/buildStatus/icon?job=2018.conc.at)](https://jenkins.dovigo.org/view/concat/job/2018.conc.at/)
+[![Build Status](https://jenkins.5k20.com/buildStatus/icon?job=2018.conc.at)](https://jenkins.5k20.com/view/concat/job/2018.conc.at/)
 [![Dependency Status](https://david-dm.org/conc-at/2018.conc.at.svg)](https://david-dm.org/conc-at/2018.conc.at)
 [![devDependency Status](https://david-dm.org/conc-at/2018.conc.at/dev-status.svg)](https://david-dm.org/conc-at/2018.conc.at#info=devDependencies)
 
@@ -22,4 +22,3 @@ npm run build
 ```bash
 npm start
 ```
-
