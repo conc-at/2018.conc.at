@@ -173,6 +173,12 @@ $(function() {
           new google.maps.LatLng(33.8734237, 35.3019617),
           sbg
         ]
+      }, {
+        path: [
+          // Sunnyvale, California
+          new google.maps.LatLng(37.386791, -122.018800),
+          sbg
+        ]
       }
     ]
 
