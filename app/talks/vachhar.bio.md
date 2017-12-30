@@ -1,0 +1,1 @@
+Varun Vachhar is a developer with a strong focus on design, interactivity and animation. Originally from New Delhi, he currently lives in Toronto and works as a developer at Rangle.io. In his spare time, he likes to experiment with creative coding and making playful experiences for the web.
