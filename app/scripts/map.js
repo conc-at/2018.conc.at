@@ -157,19 +157,25 @@ $(function() {
     var flights = [
       {
         path: [
-          // Vienna
+          // Vienna, Austria
           new google.maps.LatLng(48.2000, 16.3667),
           sbg
         ]
       }, {
         path: [
-          // Berlin
+          // Munich, Germany
+          new google.maps.LatLng(48.1545687,11.2609782),
+          sbg
+        ]
+      }, {
+        path: [
+          // Berlin, Germany
           new google.maps.LatLng(52.5167, 13.3833),
           sbg
         ]
       }, {
         path: [
-          // Lebanon
+          // Beirut, Lebanon
           new google.maps.LatLng(33.8734237, 35.3019617),
           sbg
         ]
@@ -177,6 +183,24 @@ $(function() {
         path: [
           // Sunnyvale, California
           new google.maps.LatLng(37.386791, -122.018800),
+          sbg
+        ]
+      }, {
+        path: [
+          // Melbourne, Australia
+          new google.maps.LatLng(-37.8274851,144.9527565),
+          sbg
+        ]
+      }, {
+        path: [
+          // Toronto, Canada
+          new google.maps.LatLng(42.7268205,-83.9490366),
+          sbg
+        ]
+      }, {
+        path: [
+          // Vancouver, Canada
+          new google.maps.LatLng(49.2576504,-123.2643279),
           sbg
         ]
       }
