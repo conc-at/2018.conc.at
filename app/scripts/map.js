@@ -194,7 +194,7 @@ $(function() {
       }, {
         path: [
           // Toronto, Canada
-          new google.maps.LatLng(42.7268205,-83.9490366),
+          new google.maps.LatLng(43.6570403,-79.4609327),
           sbg
         ]
       }, {
