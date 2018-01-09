@@ -1,0 +1,1 @@
+Brandon did mathematics for a long time, but eventually found himself in tech as a programmer. He lead the iOS and Android teams at Kickstarter for 5.5 years, and eventually open-sourced the entire code bases for both applications. He's interested in functional programming, type systems, and how to better our craft as programmers.
