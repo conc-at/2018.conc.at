@@ -1,0 +1,1 @@
+Tiffany is a Canadian living in Berlin. She is a senior product manager and engineer at SoundCloud. Her specialty is picking apart nuanced user needs and translating them into nitty gritty technical requirements. She gives talks at the intersection of UX and dev.
