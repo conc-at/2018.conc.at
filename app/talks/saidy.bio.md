@@ -1,0 +1,1 @@
+Nicole is a UI/UX designer with 7+ years of experience. She spends most of her time on the road as digital nomad with a mission to inspire people about design by speaking at conferences and coaching development at coding bootcamps.

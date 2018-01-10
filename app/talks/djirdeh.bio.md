@@ -1,0 +1,1 @@
+Houssein does JavaScript at Rangle.io focusing on both web and mobile development. In his spare time, he enjoys contributing talks and technical writing to the development community. On the rare occasions when Houssein is not working on a blog post or a open source project, he enjoys weightlifting and watching far too much YouTube.

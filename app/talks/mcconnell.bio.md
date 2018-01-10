@@ -1,0 +1,1 @@
+Ivana is a UI/UX designer. She fell in love with the web on Geocities and Neopets many years ago, and found her way into UX design via neuroscience research, rock climbing instruction, and video game testing. Originally born in Sarajevo, she has lived in Croatia, all over Canada, and Scotland, and is now based in Vancouver working remotely for Customer.io.

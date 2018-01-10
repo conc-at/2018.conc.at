@@ -1,0 +1,1 @@
+I'm a developer from Toronto, Canada currently working at Mozilla, trying to modernize your newtab page on Firefox. I mostly write in Javascript, but am interested in all the new things going on in the modern web. In my spare time I do yoga, I read a lot of books, I eat a lot of tacos, and I drink a lot of coffee. 
