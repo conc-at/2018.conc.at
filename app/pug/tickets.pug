@@ -56,26 +56,26 @@ section#tickets
           button.btn.btn-xl.disabled
             | Apply Now
             span.badge None Left
+
+section#workshop-tickets(style="padding-top: 0;")
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading Workshop Tickets
+        h3.section-subheading.text-muted
+          | Friday, March 2nd
+    .row.text-center
+      .ticket-info.col-sm-6.col-md-4.col-sm-offset-3.col-md-offset-4
+        span.fa-stack.fa-4x
+          i.fa.fa-circle.fa-stack-2x.text-2
+          i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
+        h4.service-heading Webpack - The Good Parts
+        p.text-muted(style="min-height: auto;")
+          | Learn Webpack in a 4hr workshop with Juho or Tobias
+        tito-button(event='concat/2018', releases='txbahjytc-w')
+          | 150€ + VAT
     .row#travel
       include ./party
       include ./travel
       include ./accomodation
 
-//-
-  section#workshop-tickets
-    .container
-      .row
-        .col-lg-12.text-center
-          h2.section-heading Workshop Tickets
-          h3.section-subheading.text-muted
-            | Friday, March 2nd
-      .row.text-center
-        .ticket-info.col-md-4.col-sm-6.col-md-offset-4
-          span.fa-stack.fa-4x
-            i.fa.fa-circle.fa-stack-2x.text-2
-            i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
-          h4.service-heading Webpack - The Good Parts
-          p.text-muted
-            | Learn Webpack in a 4hr workshop with Juho or Tobias
-          tito-button(event='concat/2018', releases='txbahjytc-w')
-            | 150€ + VAT
