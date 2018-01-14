@@ -1,4 +1,5 @@
-'use strict'
+import "headroom.js/dist/jQuery.headroom";
+
 /*!
  * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -6,51 +7,57 @@
  */
 /* global $ */
 $(function() {
-  var hash = location.hash
+  var hash = location.hash;
   if (!(/Modal$/.test(hash) || /^#talk-/.test(hash))) {
-    return
+    return;
   }
-  $(hash).modal('show')
-})
+  $(hash).modal("show");
+});
 
 $(function() {
-  var timeout
-  var $nav = $('nav.navbar')
+  var timeout;
+  var $nav = $("nav.navbar");
   $nav.headroom({
     onTop: function() {
-      clearTimeout(timeout)
+      clearTimeout(timeout);
       //$nav.removeClass('navbar-bg')
     },
     onNotTop: function() {
       timeout = setTimeout(function() {
         //$nav.addClass('navbar-bg')
-      }, 150)
+      }, 150);
     }
-  })
+  });
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
-  $('a.page-scroll').bind('click', function(event) {
-    var href = $(this).attr('href')
-    $('html, body').stop().animate({
-      scrollTop: $(href).offset().top
-    }, 1500, 'easeInOutExpo')
-    history.pushState({}, '', href)
-    event.preventDefault()
-  })
+  $("a.page-scroll").bind("click", function(event) {
+    var href = $(this).attr("href");
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $(href).offset().top
+        },
+        1500,
+        "easeInOutExpo"
+      );
+    history.pushState({}, "", href);
+    event.preventDefault();
+  });
 
   // Highlight the top nav as scrolling occurs
-  $('body').scrollspy({
-    target: '.navbar-fixed-top'
-  })
+  $("body").scrollspy({
+    target: ".navbar-fixed-top"
+  });
 
   // Closes the Responsive Menu on Menu Item Click
-  $('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click()
-  })
-})
+  $(".navbar-collapse ul li a").click(function() {
+    $(".navbar-toggle:visible").click();
+  });
+});
 
-window.addEventListener('updateready', window.location.reload)
+window.addEventListener("updateready", window.location.reload);
 
 if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
-  window.location.reload()
+  window.location.reload();
 }

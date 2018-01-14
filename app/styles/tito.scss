@@ -1,0 +1,7 @@
+tito-button {
+  button {
+    @extend .btn;
+    @extend .btn-xl;
+    border: none;
+  }
+}

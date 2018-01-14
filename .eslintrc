@@ -1,9 +1,18 @@
 {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 7,
     "sourceType": "module"
   },
+  "plugins": ["prettier"],
   "rules": {
-    "semi": 0
-  }
+    "indent": [2, 2],
+    "linebreak-style": [2, "unix"],
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["plugin:prettier/recommended"]
 }

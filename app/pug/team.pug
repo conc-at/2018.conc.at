@@ -1,135 +1,114 @@
 section#team.bg-light-gray
   .container
     .row
-      .col-lg-12.text-center
+      .col-12.text-center
         h2.section-heading The Team
         h4.section-subheading Meet the people behind .concat()
-    .row
-      .col-sm-4.col-lg-2.col-lg-offset-3
-        .team-member
-          img.img-responsive.img-circle(
-          width='225',
-          height='225',
-          src='images/team/neele.jpg',
-          srcset='images/team/neele@2x.jpg 2x',
-          alt='Neele Barthel'
+    .row.justify-content-center
+      .team-member.col-sm-4.col-lg-3
+        img.img-fluid.rounded-circle(
+        width='225',
+        height='225',
+        src='images/team/neele.jpg',
+        srcset='images/team/neele@2x.jpg 2x',
+        alt='Neele Barthel'
+        )
+        h4 Neele Barthel
+        p.text-muted
+          a(href='https://neele.codes') neele.codes
+        ul.list-inline.social-buttons
+          li.list-inline-item
+            a(href='https://twitter.com/helloneele')
+              i.fa.fa-twitter
+          li.list-inline-item
+            a(href='https://github.com/helloneele')
+              i.fa.fa-github-alt
+          li.list-inline-item
+            a(href='http://neele.codes/')
+              i.fa.fa-globe
+      .team-member.col-sm-4.col-lg-3
+        img.img-fluid.rounded-circle(
+        width='225',
+        height='225',
+        src='images/team/fabian.jpg',
+        srcset='images/team/fabian@2x.jpg 2x',
+        alt='Floor Drees'
+        )
+        h4 Fabian Hoffmann
+        p.text-muted
+          a(href='http://fabianhoffmann.io/') fabianhoffmann.io
+        ul.list-inline.social-buttons
+          li.list-inline-item
+            a(href='https://twitter.com/fabianh0ffmann')
+              i.fa.fa-twitter
+          li.list-inline-item
+            a(href='https://github.com/Fabian-Fynn')
+              i.fa.fa-github-alt
+          li.list-inline-item
+            a(href='http://fabianhoffmann.io/')
+              i.fa.fa-globe
+      .team-member.col-sm-4.col-lg-3
+        img.img-fluid.rounded-circle(
+        width='225',
+        height='225',
+        src='images/team/hannes.jpg',
+        srcset='images/team/hannes@2x.jpg 2x',
+        alt='Hannes Moser'
+        )
+        h4 Hannes Moser
+        p.text-muted
+          a(href='https://hannesmoser.at') hannesmoser.at
+        ul.list-inline.social-buttons
+          li.list-inline-item
+            a(href='https://twitter.com/eliias')
+              i.fa.fa-twitter
+          li.list-inline-item
+            a(href='https://github.com/eliias')
+              i.fa.fa-github-alt
+          li.list-inline-item
+            a(href='https://hannesmoser.at/')
+              i.fa.fa-globe
+    .row.justify-content-center
+      .team-member.col-xs-6.col-sm-4.col-md-3.col-lg-2
+        img.img-fluid.rounded-circle(
+        src='images/team/bianca.jpg',
+        srcset='images/team/bianca@2x.jpg 2x',
+        alt='Bianca Leitner'
+        )
+      .team-member.col-xs-6.col-sm-4.col-md-3.col-lg-2
+        a(href='https://twitter.com/lisi_linhart')
+          img.img-fluid.rounded-circle(
+          src='images/team/lisi.jpg',
+          srcset='images/team/lisi@2x.jpg 2x',
+          alt='Lisi Linhart'
           )
-          h4 Neele Barthel
-          p.text-muted
-            a(href='https://neele.codes') neele.codes
-          ul.list-inline.social-buttons
-            li
-              a(href='https://twitter.com/helloneele')
-                i.fa.fa-twitter
-            li
-              a(href='https://github.com/helloneele')
-                i.fa.fa-github-alt
-            li
-              a(href='http://neele.codes/')
-                i.fa.fa-globe
-      .col-sm-4.col-lg-2
-        .team-member
-          img.img-responsive.img-circle(
-          width='225',
-          height='225',
-          src='images/team/fabian.jpg',
-          srcset='images/team/fabian@2x.jpg 2x',
-          alt='Floor Drees'
+      .team-member.col-xs-6.col-sm-4.col-md-3.col-lg-2
+        img.img-fluid.rounded-circle(
+        src='images/team/ivan.jpg',
+        srcset='images/team/ivan@2x.jpg 2x',
+        alt='Ivan Popovic'
+        )
+      .team-member.col-xs-6.col-sm-4.col-md-3.col-lg-2
+        a(href='https://twitter.com/jpeer264')
+          img.img-fluid.rounded-circle(
+          src='images/team/jan.jpg',
+          srcset='images/team/jan@2x.jpg 2x',
+          alt='Jan Peer Stöcklmair'
           )
-          h4 Fabian Hoffmann
-          p.text-muted
-            a(href='http://fabianhoffmann.io/') fabianhoffmann.io
-          ul.list-inline.social-buttons
-            li
-              a(href='https://twitter.com/fabianh0ffmann')
-                i.fa.fa-twitter
-            li
-              a(href='https://github.com/Fabian-Fynn')
-                i.fa.fa-github-alt
-            li
-              a(href='http://fabianhoffmann.io/')
-                i.fa.fa-globe
-      .col-sm-4.col-lg-2
-        .team-member
-          img.img-responsive.img-circle(
-          width='225',
-          height='225',
-          src='images/team/hannes.jpg',
-          srcset='images/team/hannes@2x.jpg 2x',
-          alt='Hannes Moser'
-          )
-          h4 Hannes Moser
-          p.text-muted
-            a(href='https://hannesmoser.at') hannesmoser.at
-          ul.list-inline.social-buttons
-            li
-              a(href='https://twitter.com/eliias')
-                i.fa.fa-twitter
-            li
-              a(href='https://github.com/eliias')
-                i.fa.fa-github-alt
-            li
-              a(href='https://hannesmoser.at/')
-                i.fa.fa-globe
-    .row
-      .col-xs-6.col-sm-3.col-md-2.col-md-offset-1
-        .team-member
-          img.img-responsive.img-circle(
-          width='165',
-          height='165',
-          src='images/team/bianca.jpg',
-          srcset='images/team/bianca@2x.jpg 2x',
-          alt='Bianca Leitner'
+      .team-member.col-xs-6.col-sm-4.col-md-3.col-lg-2
+        a(href='https://twitter.com/@p4dd9')
+          img.img-fluid.rounded-circle(
+          src='images/team/patrick.jpg',
+          srcset='images/team/patrick@2x.jpg 2x',
+          alt='Patrick Obermüller'
           )
 
-      .col-xs-6.col-sm-3.col-md-2
-        .team-member
-          a(href='https://twitter.com/lisi_linhart')
-            img.img-responsive.img-circle(
-            width='165',
-            height='165',
-            src='images/team/lisi.jpg',
-            srcset='images/team/lisi@2x.jpg 2x',
-            alt='Lisi Linhart'
-            )
-
-      .col-xs-6.col-sm-3.col-md-2
-        .team-member
-          img.img-responsive.img-circle(
-          width='165',
-          height='165',
-          src='images/team/ivan.jpg',
-          srcset='images/team/ivan@2x.jpg 2x',
-          alt='Ivan Popovic'
-          )
-
-      .col-xs-6.col-sm-3.col-md-2
-        .team-member
-          a(href='https://twitter.com/jpeer264')
-            img.img-responsive.img-circle(
-            width='165',
-            height='165',
-            src='images/team/jan.jpg',
-            srcset='images/team/jan@2x.jpg 2x',
-            alt='Jan Peer Stöcklmair'
-            )
-      .col-xs-6.col-sm-3.col-md-2
-        .team-member
-          a(href='https://twitter.com/@p4dd9')
-            img.img-responsive.img-circle(
-            width='165',
-            height='165',
-            src='images/team/patrick.jpg',
-            srcset='images/team/patrick@2x.jpg 2x',
-            alt='Patrick Obermüller'
-            )
-
-    .row
+    .row.justify-content-center
       .col-sm-12
         h4.text-center Diversity Team
-      .col-xs-6.col-sm-4.col-md-4.col-lg-offset-3.col-lg-2
+      .col-xs-6.col-sm-4.col-md-4.col-lg-2
         .team-member
-          img.img-responsive.img-circle(
+          img.img-fluid.rounded-circle(
           width='165',
           height='165',
           src='images/team/bokan.jpg',
@@ -138,12 +117,12 @@ section#team.bg-light-gray
           )
           h4 Bokan M. Assad
           ul.list-inline.social-buttons
-            li
+            li.list-inline-item
               a(href='https://twitter.com/berthaottokarl')
                 i.fa.fa-twitter
       .col-xs-6.col-sm-4.col-md-4.col-lg-2
         .team-member
-          img.img-responsive.img-circle(
+          img.img-fluid.rounded-circle(
           width='165',
           height='165',
           src='images/team/jackie.jpg',
@@ -152,15 +131,15 @@ section#team.bg-light-gray
           )
           h4 Jackie / Andrea Ida Malkah Klaura
           ul.list-inline.social-buttons
-            li
+            li.list-inline-item
               a(href='https://twitter.com/jackie_a_k')
                 i.fa.fa-twitter
-            li
+            li.list-inline-item
               a(href='https://tantemalkah.at')
                 i.fa.fa-globe
-      .col-xs-offset-3.col-xs-6.col-sm-offset-0.col-sm-4.col-md-4.col-lg-2
+      .col-xs-6.col-sm-4.col-md-4.col-lg-2
         .team-member
-          img.img-responsive.img-circle(
+          img.img-fluid.rounded-circle(
           width='165',
           height='165',
           src='images/team/katta.jpg',
@@ -169,16 +148,16 @@ section#team.bg-light-gray
           )
           h4 Katta Spiel
           ul.list-inline.social-buttons
-            li
+            li.list-inline-item
               a(href='https://twitter.com/katta_spiel')
                 i.fa.fa-twitter
-            li
+            li.list-inline-item
               a(href='https://github.com/kattaspiel')
                 i.fa.fa-github-alt
-            li
+            li.list-inline-item
               a(href='http://katta.mere.st')
                 i.fa.fa-globe
-    .row
-      .col-lg-8.col-lg-offset-2.text-center
+    .row.justify-content-center
+      .col-lg-8.text-center
         p.text-muted
           include:markdown-it fh.md

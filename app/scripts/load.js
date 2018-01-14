@@ -1,42 +1,42 @@
-(function() {
-  'use strict'
+import "waypoints/lib/jquery.waypoints";
 
+module.exports = function() {
   function destroy(waypoint) {
-    if (waypoint && (typeof waypoint.destroy === 'function')) {
-      waypoint.destroy()
+    if (waypoint && typeof waypoint.destroy === "function") {
+      waypoint.destroy();
     }
   }
 
   /* global Waypoint */
   /* eslint no-new: 0 */
-  var tloaded = false
+  var tloaded = false;
   new Waypoint({
-    element: document.querySelector('#talks'),
+    element: document.querySelector("#talks"),
     handler: function() {
       if (tloaded) {
-        return destroy(this)
+        return destroy(this);
       }
-      tloaded = true
-      var script = document.createElement('script')
-      script.src = 'https://js.tito.io/v1'
-      document.querySelector('body').appendChild(script)
-      destroy(this)
+      tloaded = true;
+      var script = document.createElement("script");
+      script.src = "https://js.tito.io/v1";
+      document.querySelector("body").appendChild(script);
+      destroy(this);
     }
-  })
+  });
 
-  var gloaded = false
+  var gloaded = false;
   new Waypoint({
-    element: document.querySelector('#about'),
+    element: document.querySelector("#about"),
     handler: function() {
       if (gloaded) {
-        return destroy(this)
+        return destroy(this);
       }
-      gloaded = true
-      window.__loadedMap = true
-      if (typeof window.__initializeMap === 'function') {
-        window.__initializeMap()
+      gloaded = true;
+      window.__loadedMap = true;
+      if (typeof window.__initializeMap === "function") {
+        window.__initializeMap();
       }
-      destroy(this)
+      destroy(this);
     }
-  })
-})()
+  });
+};

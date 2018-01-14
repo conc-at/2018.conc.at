@@ -1,42 +1,31 @@
-nav.navbar.navbar-default.navbar-fixed-top.navbar-bg
-  .container
-    .navbar-header.page-scroll
-      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      a.navbar-brand.page-scroll.hidden-sm(href='#page-top')
-        img(
-          src='/images/logos/concat.svg',
-          width='50',
-          height='50',
-          alt='.concat() Logo'
-        )
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top
+  a.navbar-brand.page-scroll
+    img(
+      src='/images/logos/concat.svg',
+      width='50',
+      height='50',
+      alt='.concat() Logo'
+    )
 
-    #bs-example-navbar-collapse-1.collapse.navbar-collapse
-      ul.nav.navbar-nav.navbar-right
+    .collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
         block navlinks
           li.hidden
             a(href='#page-top')
-          li
-            a.page-scroll(href='http://conc-at.tumblr.com/') News
-          li
-            a.page-scroll(href='#talks') Talks
-          //- li
-            a.page-scroll(href='#cfp') Call for Speakers
-          //- li
-                a.page-scroll(href='#calendar') Calendar
-          li
-            a.page-scroll(href='#tickets') Tickets
-          li
-            a.page-scroll(href='#a11y') Accessibility
-          li
-            a.page-scroll(href='#coc') Code of Conduct
-          li
-            a.page-scroll(href='#sponsors') Sponsors
-          li
-            a.page-scroll(href='#team') Team
-          li
-            a.fa-wrapper(href='https://twitter.com/conc_at')
+          li.nav-item
+            a.nav-link.page-scroll(href='http://conc-at.tumblr.com/') News
+          li.nav-item
+            a.nav-link.page-scroll(href='#talks') Talks
+          li.nav-item
+            a.nav-link.page-scroll(href='#tickets') Tickets
+          li.nav-item
+            a.nav-link.page-scroll(href='#a11y') Accessibility
+          li.nav-item
+            a.nav-link.page-scroll(href='#coc') Code of Conduct
+          li.nav-item
+            a.nav-link.page-scroll(href='#sponsors') Sponsors
+          li.nav-item
+            a.nav-link.page-scroll(href='#team') Team
+          li.nav-item
+            a.nav-link.fa-wrapper(href='https://twitter.com/conc_at')
               i.fa.fa-2x.fa-twitter

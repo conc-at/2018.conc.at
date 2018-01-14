@@ -1,12 +1,12 @@
 section#tickets
   .container
     .row
-      .col-lg-12.text-center
+      .col-12.text-center
         h2.section-heading Tickets
         h3.section-subheading.text-muted
           | include breakfast and lunch served at the venue – and a party.
     .row.text-center
-      .ticket-info.col-md-3.col-sm-6
+      .ticket-info.col-lg-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-2
           i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
@@ -15,7 +15,7 @@ section#tickets
           | We want everyone who is interested to attend this conference, thus we will support students with a reduced ticket price.
         tito-button(event='concat/2018', releases='txbahjytc-w')
           | 90€ + VAT
-      .ticket-info.col-md-3.col-sm-6
+      .ticket-info.col-lg-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-3
           i.fa.fa-flash.fa-stack-1x.fa-inverse
@@ -26,7 +26,7 @@ section#tickets
           | 150€ + VAT
           span.badge Sold Out
       .clearfix.visible-sm
-      .ticket-info.col-md-3.col-sm-6
+      .ticket-info.col-lg-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-primary
           i.fa.fa-ticket.fa-stack-1x.fa-inverse
@@ -36,7 +36,7 @@ section#tickets
         tito-button(event='concat/2018', releases='ze-ww7twwsg,sruvupdtfmy,dta6vjxwleo')
           | 225€ + VAT
           //- span.badge Sold Out
-      .ticket-info.col-md-3.col-sm-6
+      .ticket-info.col-lg-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-primary
           i.fa.fa-star.fa-stack-1x.fa-inverse
@@ -57,15 +57,15 @@ section#tickets
             | Apply Now
             span.badge None Left
 
-section#workshop-tickets(style="padding-top: 0;")
+section#workshop-tickets
   .container
     .row
-      .col-lg-12.text-center
+      .col-12.text-center
         h2.section-heading Workshop Tickets
         h3.section-subheading.text-muted
           | Friday, March 2nd
-    .row.text-center
-      .ticket-info.col-sm-6.col-md-4.col-sm-offset-3.col-md-offset-4
+    .row.justify-content-center.text-center
+      .ticket-info.col-sm-6.col-md-4
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-2
           i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
