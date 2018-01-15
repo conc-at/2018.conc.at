@@ -1,1 +1,1 @@
-Tobias Koppers works on Webpack.
+Tobias Koppers is the founder of webpack. He works full time as core developer on webpack.
