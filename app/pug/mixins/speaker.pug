@@ -1,4 +1,4 @@
-mixin speaker(name, talk, href, twitter)
+mixin speaker(name, talk, href, twitter, company = '')
   mixin inner()
     img(
       src=`images/speakers/${thumb}_thumb.jpg`,
@@ -8,6 +8,7 @@ mixin speaker(name, talk, href, twitter)
       height='150'
     )
     .info
+      h5 #{company + ' '}
       h4 #{name + ' '}
         br
         if href

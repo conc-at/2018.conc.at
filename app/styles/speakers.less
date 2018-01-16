@@ -8,9 +8,15 @@
     text-decoration: none !important;
     height: 220px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding-right: 10px;
     cursor: pointer;
+
+    .info {
+      h5 {
+        color: @brand-primary;
+      }
+    }
 
     &:hover:not(.no-abstract) {
       background: white;

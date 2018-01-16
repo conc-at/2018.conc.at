@@ -1,5 +1,12 @@
 // Bootstrap Button Variant
 
+.random-brand-color() {
+  @colors: @brand-primary, @brand-2, @brand-3;
+  @length: length(@colors);
+  @random: `Math.ceil(Math.random() * 3)`;
+  color: extract(@colors, @random);
+}
+
 .button-variant(@color; @background; @border) {
   color: @color;
   background-color: @background;
