@@ -137,7 +137,7 @@ $(function() {
       '<h2 class="section-heading">Our amazing venue</h2>' +
       '<h3 class="section-subheading text-muted">' +
       uni +
-      ' <a href="https://www.google.com/maps/place/Fachhochschule+Salzburg/" title="Open in Google Maps">' +
+      ' <a href="https://www.google.com/maps/place/FH+Salzburg+Campus+Urstein/@47.7240989,13.0847744,17z/data=!3m1!4b1!4m5!3m4!1s0x4776941bf92bd19d:0xd2dc08e0ecd8695f!8m2!3d47.7240989!4d13.0869631" title="Open in Google Maps">' +
       '<i class="fa fa-external-link"></i>' +
       '</a>' +
       '</h3>' +
