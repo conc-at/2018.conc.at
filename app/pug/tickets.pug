@@ -63,9 +63,6 @@ section#workshop-tickets(style="padding-top: 0;")
         h2.section-heading Workshop Tickets
         h3.section-subheading.text-muted
           | Friday, March 2nd
-          br
-          small
-            | If there are not enough attendees to make the workshop happen, we will refund the ticket.
     .row.text-center
       .ticket-info.col-sm-6.col-md-4.col-md-offset-2
         span.fa-stack.fa-4x
@@ -74,8 +71,9 @@ section#workshop-tickets(style="padding-top: 0;")
         h4.service-heading Webpack - The Good Parts
         p.text-muted(style="min-height: auto;")
           | Learn Webpack in a 4hr workshop with Juho and Tobias
-        tito-button(event='concat/2018', releases='vbjghgmj4so')
+        button.btn.btn-xl.disabled
           | 150€ + VAT
+          span.badge Sold Out
       .ticket-info.col-sm-6.col-md-4
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-2
@@ -83,7 +81,7 @@ section#workshop-tickets(style="padding-top: 0;")
         h4.service-heading Late Bird: Webpack - The Good Parts
         p.text-muted(style="min-height: auto;")
           | Learn Webpack in a 4hr workshop with Juho and Tobias
-        button.btn.btn-xl.disabled
+        tito-button(event='concat/2018', releases='v51gvpnkvim')
           | 250€ + VAT
     .row#travel
       include ./party
