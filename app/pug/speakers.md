@@ -1,7 +1,7 @@
 We carefully selected our first speakers to show you in which direction we want the conference to go. There are several **more 20min slots** *without Q&A session afterwards* so we invite you and the entire web development and UX community to **propose a talk for .concat()**.
 
 This is a web development and UX conference, so we want to hear talks about frontend and backend development, security, design, typography, accessibility, open source and our culture.
-But if you think our attendees will benefit from you hacking on robots or talking about [bacon](https://www.youtube.com/watch?v=tRVUKCQw7qU) that’s totally fine as well. 
+But if you think our attendees will benefit from you hacking on robots or talking about [bacon](https://www.youtube.com/watch?v=tRVUKCQw7qU) that’s totally fine as well.
 
 Just remember: We will always favor an original, outside of the box talk, or one that explains concepts and the bigger picture over a “A sucks, use B instead” talk. Get creative and surprise us.
 
@@ -17,4 +17,4 @@ We want to support our speakers and thus will **cover their travel and accommoda
 
 So please go ahead, pick your topic and [submit a talk](https://docs.google.com/forms/d/e/1FAIpQLScsqaGmwRfMLFbImrCuB_-r09KIV6AgC5LMQFf64V53OAEuVw/viewform)!
 
-Still not sure? Neele, Fabian & Hannes would be happy to hear from you and help you make your talk a reality. [Contact us](mailto:talks@conc.at)!
+Still not sure? Neele, Lisi & Hannes would be happy to hear from you and help you make your talk a reality. [Contact us](mailto:talks@conc.at)!

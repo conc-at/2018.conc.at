@@ -4,14 +4,14 @@
 # TEAM
 
     Neele Barthel -- Organizer -- @helloneele
-    Fabian Hoffmann -- Organizer -- @fabianh0ffmann
+    Lisi Linhart -- Organizer -- @lisi_linhart
     Hannes Moser -- Organizer -- @eliias
 
 # THANKS
 
     Brigitte Jellinek
     MultiMediaTechnology
-    Fachhochschule Salzburg
+    FH Salzburg
 
 # TECHNOLOGY COLOPHON
 
