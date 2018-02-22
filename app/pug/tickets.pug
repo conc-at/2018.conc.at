@@ -18,8 +18,9 @@ section#tickets
         h4.service-heading Student Tickets
         p.text-muted
           | We want everyone who is interested to attend this conference, thus we will support students with a reduced ticket price.
-        tito-button(event='concat/2018', releases='txbahjytc-w')
+        button.btn.btn-xl.disabled
           | 90€ + VAT
+          span.badge Sold Out
       .ticket-info.col-md-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-3
@@ -38,19 +39,18 @@ section#tickets
         h4.service-heading Regular Tickets
         p.text-muted
           | One full day of knowledge, fun and hanging out with old and new friends. That's our regular ticket.
-        tito-button(event='concat/2018', releases='ze-ww7twwsg,sruvupdtfmy,dta6vjxwleo')
+        button.btn.btn-xl.disabled
           | 225€ + VAT
-          //- span.badge Sold Out
+          span.badge Sold Out
       .ticket-info.col-md-3.col-sm-6
         span.fa-stack.fa-4x
-          i.fa.fa-circle.fa-stack-2x.text-4
-          i.fa.fa-gift.fa-stack-1x.fa-inverse
-        h4.service-heading Diversity Tickets
+          i.fa.fa-circle.fa-stack-2x.text-primary
+          i.fa.fa-ticket.fa-stack-1x.fa-inverse
+        h4.service-heading Late Bird Tickets
         p.text-muted
-          | Free tickets for underrepresented groups in tech. Would you like to attend the conference but cannot afford the ticket?
-        a(href="https://goo.gl/wdy2uJ").btn.btn-xl
-          | Apply Now
-          // span.badge None Left
+          | Last chance for a full day of knowledge, fun and hanging out with old and new friends.
+        tito-button(event='concat/2018', releases='y6mi8f-k-vw')
+          | 300€ + VAT
     .row
       .col-lg-12.text-center
         p.text-muted.
