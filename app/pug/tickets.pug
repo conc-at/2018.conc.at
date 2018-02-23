@@ -5,6 +5,11 @@ section#tickets
         h2.section-heading Tickets
         h3.section-subheading.text-muted
           | include breakfast and lunch served at the venue – and a party.
+          br
+          small
+            | If the form below is not visible or not working for you, please use&nbsp;
+            a(href="https://ti.to/concat/2018") this link to get your conference ticket
+            | .
     .row.text-center
       .ticket-info.col-md-3.col-sm-6
         span.fa-stack.fa-4x
@@ -13,8 +18,9 @@ section#tickets
         h4.service-heading Student Tickets
         p.text-muted
           | We want everyone who is interested to attend this conference, thus we will support students with a reduced ticket price.
-        tito-button(event='concat/2018', releases='txbahjytc-w')
+        button.btn.btn-xl.disabled
           | 90€ + VAT
+          span.badge Sold Out
       .ticket-info.col-md-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-3
@@ -33,29 +39,22 @@ section#tickets
         h4.service-heading Regular Tickets
         p.text-muted
           | One full day of knowledge, fun and hanging out with old and new friends. That's our regular ticket.
-        tito-button(event='concat/2018', releases='ze-ww7twwsg,sruvupdtfmy,dta6vjxwleo')
+        button.btn.btn-xl.disabled
           | 225€ + VAT
-          //- span.badge Sold Out
+          span.badge Sold Out
       .ticket-info.col-md-3.col-sm-6
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-primary
-          i.fa.fa-star.fa-stack-1x.fa-inverse
-        h4.service-heading Diversity Tickets
+          i.fa.fa-ticket.fa-stack-1x.fa-inverse
+        h4.service-heading Late Bird Tickets
         p.text-muted
-          | You want to enable community members to attend who otherwise couldn't?
-        tito-button(event='concat/2018', releases='hsdmvzpbgkc')
-          | Sponsor a ticket!
-      //-
-        .ticket-info.col-md-3.col-sm-6
-          span.fa-stack.fa-4x
-            i.fa.fa-circle.fa-stack-2x.text-4
-            i.fa.fa-gift.fa-stack-1x.fa-inverse
-          h4.service-heading Diversity Tickets
-          p.text-muted
-            | Free tickets for underrepresented groups in tech. Would you like to attend the conference but cannot afford the ticket?
-          button.btn.btn-xl.disabled
-            | Apply Now
-            span.badge None Left
+          | Last chance for a full day of knowledge, fun and hanging out with old and new friends.
+        tito-button(event='concat/2018', releases='y6mi8f-k-vw')
+          | 300€ + VAT
+    .row
+      .col-lg-12.text-center
+        p.text-muted.
+          Tickets are not refundable, but re-assignable.
 
 section#workshop-tickets(style="padding-top: 0;")
   .container
@@ -65,15 +64,25 @@ section#workshop-tickets(style="padding-top: 0;")
         h3.section-subheading.text-muted
           | Friday, March 2nd
     .row.text-center
-      .ticket-info.col-sm-6.col-md-4.col-sm-offset-3.col-md-offset-4
+      .ticket-info.col-sm-6.col-md-4.col-md-offset-2
         span.fa-stack.fa-4x
           i.fa.fa-circle.fa-stack-2x.text-2
           i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
         h4.service-heading Webpack - The Good Parts
         p.text-muted(style="min-height: auto;")
           | Learn Webpack in a 4hr workshop with Juho and Tobias
-        tito-button(event='concat/2018', releases='vbjghgmj4so')
+        button.btn.btn-xl.disabled
           | 150€ + VAT
+          span.badge Sold Out
+      .ticket-info.col-sm-6.col-md-4
+        span.fa-stack.fa-4x
+          i.fa.fa-circle.fa-stack-2x.text-2
+          i.fa.fa-graduation-cap.fa-stack-1x.fa-inverse
+        h4.service-heading Late Bird: Webpack - The Good Parts
+        p.text-muted(style="min-height: auto;")
+          | Learn Webpack in a 4hr workshop with Juho and Tobias
+        tito-button(event='concat/2018', releases='v51gvpnkvim')
+          | 250€ + VAT
     .row#travel
       include ./party
       include ./travel

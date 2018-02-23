@@ -3,6 +3,7 @@
 
 # IDE
 .idea/
+.vscode/
 
 # Node.js
 npm-debug.log
@@ -11,4 +12,3 @@ node_modules/
 # Build
 .tmp/
 dist/
-
