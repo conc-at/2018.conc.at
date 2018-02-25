@@ -1,5 +1,7 @@
-Building websites is fun, but can be challenging too. Turning certain designs into living components may not be as straightforward as we hope it to be, and sometimes, hacking our way around it is inevitable.
-
-Getting creative in our development process does not, however, mean being impractical. Creative solutions can also be maintainable, scalable and should definitely not sacrifice the inclusivity of our interfaces. Being a creative developer should not stand in the way of being a responsible one.
-
-In this talk, Sara is going to share with you some of the lessons and techniques she learned building websites for clients over the past three years. She will share some creative challenges and how she approached them using her frontend stack (HTML, SVG, CSS, JS), as well as laying down some practical tips on how to build inclusive interfaces without hurdles. The talk will be packed with real-life examples, code and advice that you can take away and start applying to your daily work straight away.
+Scalable Vector Graphics, or Documents? Both. SVG may be known more as an image
+format, perfect for displaying icons and illustrations, including animated ones.
+But there are other aspects of SVG that make it as powerful as it is, and those
+aspects stem from its nature as a document format, as well as its graphical
+nature. In this talk, Sara is going to highlight some SVG's document side and
+show you how it can be leveraged to improve and optimize the way we deliver
+content such as text and images for the Web, including SVG itself.
