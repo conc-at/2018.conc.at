@@ -20,10 +20,10 @@ section#schedule.bg-light-gray
               .timeline-body
                 p.text-muted.
                   A great way to start the day.
-          li.timeline-inverted
+          li.timeline-inverted.mb3
             .timeline-image
               img(src="/images/speakers/daniel_clifford.jpg", srcset="/images/speakers/daniel_clifford@2x.jpg 2x", alt="Keynote").img-circle.img-fluid
-            .timeline-panel
+            .timeline-panel.mb3
               .timeline-heading
                 h4
                   | Keynote
@@ -32,18 +32,40 @@ section#schedule.bg-light-gray
               .timeline-body
                 p.text-muted.
                   Consistent, good baseline performance across the entire JavaScript language is the central ingredient to a fast web.
-          li.timeline-inverted
-            .timeline-image
-              img(src="/images/timeline/talks_1.jpg", srcset="/images/timeline/talks_1@2x.jpg 2x", alt="Talks, Talks, Talks…").img-circle.img-fluid
-            .timeline-panel
-              .timeline-heading
-                h4
-                  | Talks Pt. 1
-                  span.text-primary &nbsp;11 AM
-                h4.subheading Two tracks, two topics
-              .timeline-body
-                p.text-muted.
-                  Choose either, a <strong>UX</strong> or <strong>dev</strong> talk or even switch tracks all the time.
+    .row
+      .schedule-headings.mb3
+        h2.text-center
+          | Namics Track
+        h2.text-center
+          | Cube Track
+    .row.schedule
+      +speaker('Ivana McConnell', 'Your algorithm isn\'t neutral: exclusionary UX and how to avoid it', '#your-algorithm-isnt-neutral').text-right
+      .schedule-time
+        h4
+          | 11:00 <br>-<br> 11:20
+      +speaker('Brandon Williams', 'Server-Side Swift from Scratch', '#server-side-swift-from-scratch')
+    .row.schedule
+      +speaker('Cory-Ann Joseph', 'Why a poker playing AI should have designers looking for a new job', '#why-a-poker-playing-ai-should-have-desingers-looking-for-a-new-job').text-right
+      .schedule-time
+        h4
+          | 11:30 <br>-<br> 11:50
+      +speaker('Ursula Sarracini', 'When Old Meets New: Codebases','#when-old-meets-new-codebases' )
+    .row.schedule
+      +speaker('Ryan Mackey', 'Bringing GraphQL to the Enterprise: When IBM Met Apollo', '#bringing-graphql-to-the-enterprise-when-ibm-met-apollo').text-right
+      .schedule-time
+        h4
+          | 12:00 <br>-<br> 12:20
+      +speaker('Ola Gasidlo', 'Let\'s save the internet: How to make browsers compatible with the web', '#lets-save-the-internet-How-to-make-browsers-compatible-with-the-web')
+    .row.schedule.mb3
+      +speaker('Rasmus Lerdorf', 'PHP in 2018', '#php-in-2018').text-right
+      .schedule-time
+        h4
+          | 12:30 <br>-<br> 12:50
+      +speaker('Jenny Shen', 'Build bridges, not walls – Design for users across cultures', '#build-bridges-not-walls-design-for-users-across-cultures')
+
+    .row
+      .col-lg-12.mt2
+        ul.timeline
           li
             .timeline-image
               img(src="/images/timeline/lunch.jpg", srcset="/images/timeline/lunch@2x.jpg 2x", alt="Lunch").img-circle.img-fluid
@@ -56,18 +78,40 @@ section#schedule.bg-light-gray
               .timeline-body
                 p.text-muted.
                   Delicious food served by Franz. Vegan and omnivore options available.
-          li.timeline-inverted
-            .timeline-image
-              img(src="/images/timeline/talks_2.jpg", srcset="/images/timeline/talks_2@2x.jpg 2x", alt="Talks, Talks, Talks…").img-circle.img-fluid
-            .timeline-panel
-              .timeline-heading
-                h4
-                  | Talks Pt. 2
-                  span.text-primary &nbsp;2 PM
-                h4.subheading Two tracks, two topics
-              .timeline-body
-                p.text-muted.
-                  Choose either, a <strong>UX</strong> or <strong>dev</strong> talk or even switch tracks all the time.
+
+    .row
+      .schedule-headings
+        h2.text-center
+          | Namics Track
+        h2.text-center
+          | Cube Track
+    .row.schedule
+      +speaker('Houssein Djirdeh', 'Thinking PRPL', '#thinking-prpl').text-right
+      .schedule-time
+        h4
+          | 11:00 <br>-<br> 11:20
+      +speaker('Nicole Saidy', 'Designing Great Progressive Web Apps', '#designing-great-progressive-web-apps')
+    .row.schedule
+      +speaker('Estelle Weyl', 'Fast. Simple. Accessible.', '#fast-simple-accessible').text-right
+      .schedule-time
+        h4
+          | 11:30 <br>-<br> 11:50
+      +speaker('Michael Lippautz', 'Live and let die: Untangling the web of objects','#live-and-let-die-untangling-the-web-of-objects')
+    .row.schedule
+      +speaker('Mike Riethmuller', 'The strategy guide to CSS Custom Properties', '#the-strategy-guide-to-css-custom-properties').text-right
+      .schedule-time
+        h4
+          | 12:00 <br>-<br> 12:20
+      +speaker('Georg Sorst', 'Psychological safety: How to become a team that learns', '#psychological-safety-how-to-become-a-team-that-learns')
+    .row.schedule.mb3
+      +speaker('Varun Vachhar', 'Mathematics of Animation', '#mathematics-of-animation').text-right
+      .schedule-time
+        h4
+          | 12:30 <br>-<br> 12:50
+      +speaker('Tiffany Conroy', 'Remote device sign-in – Authenticating without a keyboard', '#remote-device-sign-in-authenticating-without-a-keyboard')
+    .row
+      .col-lg-12
+        ul.timeline
           li
             .timeline-image
               img(src="/images/timeline/schwarzheiss.jpg", srcset="/images/timeline/schwarzheiss@2x.jpg 2x", alt="Coffee").img-circle.img-fluid
