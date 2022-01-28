@@ -17,18 +17,14 @@ script(src='scripts/map.js')
 // endbuild
 script(src='https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBuy5bz3wL49Oh6ygy-r75_dx8rxg1clLY')
 script.
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-53588121-5', 'auto');
-  ga('send', 'pageview');
-script(src="https://my.hellobar.com/d2ba7637924348f72615c2d360eead2bc83612a8.js", type="text/javascript" charset="utf-8" async="async")
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.conc.at/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '7']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
